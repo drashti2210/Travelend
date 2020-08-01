@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Travelend</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon1.ico">
+  <script src="./assets/js/jquery-3.3.1.js"></script>
+	<script src="./assets/js/myjavascript.js"></script>
+  <script src="./assets/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Carter+One" rel="stylesheet">
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <base href="/">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,700,900|Display+Playfair:200,300,400,700"> 
+    <link rel="stylesheet" href="fonts/icomoon/style.css">
+    <link rel="stylesheet" href="/css/owl.carousel.min.css">
+    <!-- <link rel="stylesheet" href="css/font-awesome.min.css"> -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	 <link href="css/animate/animate.min.css" rel="stylesheet">
+	 <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+    <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mediaelement@4.2.7/build/mediaelementplayer.min.css">
+
+
+    <link rel="stylesheet" href="css/aos.css">
+  </head>
+<body>
+  <app-root></app-root>
+  <script src="/js/jquery-3.3.1.min.js"></script>
+		<script src="/js/jquery-migrate-3.0.1.min.js"></script>
+		<script src="/js/jquery-ui.js"></script>
+		<script src="/js/popper.min.js"></script>
+		<script src="/js/bootstrap.min.js"></script>
+		<script src="/js/owl.carousel.min.js"></script>
+		<script src="/js/jquery.stellar.min.js"></script>
+		<script src="/js/jquery.countdown.min.js"></script>
+		<script src="/js/jquery.magnific-popup.min.js"></script>
+    <script src="/js/bootstrap-datepicker.min.js"></script>
+    <script src="./assets/js/myjavascript.js"></script>
+		<script src="/js/aos.js"></script>
+		<script src="/js/main.js"></script>
+    <script src="/css/wow/wow.min.js"></script>
+    <script type="text/javascript">
+      function myFun(){
+    var input,table,filter,tr,td,i;
+    input=document.getElementById("Searchpack");
+    table=document.getElementById("PackTab");
+    filter=input.value.toUpperCase();
+    tr=table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[1];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+        } 
+        else {
+          tr[i].style.display = "none";
+        } 
+      }
+    }
+  }
+  function checkIfLoaded() {
+  window.addEventListener("load", function (event) {
+    console.log("All resources finished loading!");
+    //here i should do something, either returning false or...
+    //...manipulating the isLoading, but i can't access isLoading from here
+  });
+}
+  function myFun1(){
+    var input,table,filter,tr,td,i;
+    input=document.getElementById("Searchpack1");
+    table=document.getElementById("PackTab1");
+    filter=input.value.toUpperCase();
+    tr=table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[1];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+        } 
+        else {
+          tr[i].style.display = "none";
+        } 
+      }
+    }
+  }
+  
+  function myFun2(){
+    var input,table,filter,tr,td,i;
+    input=document.getElementById("Searchpack2");
+    table=document.getElementById("PackTab2");
+    filter=input.value.toUpperCase();
+    tr=table.getElementsByTagName("tr");
+    for (i = 0; i < tr.length; i++) {
+      td = tr[i].getElementsByTagName("td")[1];
+      if (td) {
+        txtValue = td.textContent || td.innerText;
+        if (txtValue.toUpperCase().indexOf(filter) > -1) {
+        tr[i].style.display = "";
+        } 
+        else {
+          tr[i].style.display = "none";
+        } 
+      }
+    }
+  }
+  
+    </script>
+
+
+    <script type="text/javascript">
+      function alertfn() 
+      {
+          alert("Do you want Book this Hotel???");
+      }
+    </script>
+</body>
+</html>

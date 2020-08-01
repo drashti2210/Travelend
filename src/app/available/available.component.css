@@ -1,0 +1,152 @@
+#destination {
+    font-family: Serif;
+    font-size: 17px;
+  }
+  
+  #destination .container {
+    position: relative;
+    max-width: 100%;
+   
+  }
+  
+  #destination #bigpicture {
+   min-width:107%;
+   position: relative;
+   left:-15px;
+   max-height:500px;
+  }
+  
+  #destination .container .contentOnPicture {
+    position: absolute;
+    bottom: 3px;
+    left:-5px;
+    background-image: linear-gradient(to right, rgba(0,0,0,0.4), rgba(0,0,0,0));
+    color: #ffffff;
+    min-width: 400px;
+    padding: 10px;
+    }
+  #destination .container .btn1 img{
+    position: absolute;
+    bottom: 25px;
+    right: 20px;
+    border-radius: 20px;
+    max-height:30px;
+    max-width:105px;
+    opacity: 0.9;
+    }
+  
+  #destination .container .btn1 img:hover{
+    bottom: 21px;
+    right: 16px;
+    max-height:34px;
+    max-width:119px;
+    opacity: 1;
+    transition: .5s ease;
+  }
+  
+  #destination h1.heads{
+    text-align: center;
+    padding: 10px;
+    
+  }
+  #destination .line{
+      border-bottom:solid #ccc 2px;
+      width: 20%;
+  }
+  
+  
+  #package .package-title
+  {
+    text-align:center;
+    font-size: 3vw; 
+    font-weight: 500;
+   
+   
+   
+    margin-left:10%;
+  }
+  #package .border{
+    margin-left:45%; 
+    width:20%;
+    border: 1px solid gray;
+    
+  }
+  #package
+  {
+    background-color: rgba(255,255,255,0.9);
+  
+  }
+  #package .container
+  {
+    margin-top:8%;
+    
+  }
+  #package .inner
+  {
+    overflow: hidden;
+  }
+  #package .inner img
+  {
+    transition: all 1.5s ease;
+  }
+  #package .inner img:hover
+  {
+    transform: scale(1.5);
+  }
+  #package .card
+  {
+      
+      box-shadow:0 4rem 5rem 0 rgba(0,0,0,0.1);
+  
+  
+  }
+  .pkgbtn1{
+      padding:5px 15px;
+      color:white;
+      background-image:linear-gradient(to right,red,tomato);
+      border:2px tomato;
+      border-radius:30px;
+  }
+  .pkgbtn1:hover{
+      background-image:linear-gradient(to right,tomato,red);
+  }
+  .pkgbtn2{
+      padding:5px 15px;
+      background-color:#bbbbff;
+      border:2px #b0b0ff;
+      border-radius:10px;
+  }
+  .pkgbtn2:hover{
+      background-color:#b0b0ff;
+  }
+  div .underline{
+      margin:10px;
+      border-bottom:3px solid #dddddd;
+      width:30%;
+  }
+  
+  div.boxgrp{
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  h1.heads{
+    text-align: center;
+    padding: 10px;
+  }
+  div.box1 {
+    width: 33%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 15px;
+  }
+  
+  div.box1 img{
+      height:300px;
+  }
+  
+  div.txtcontainer {
+    font-size: 20px;
+    text-align: center;
+    padding: 3px 5px;
+  
+  }
